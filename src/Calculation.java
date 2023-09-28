@@ -24,6 +24,7 @@ public class Calculation {
     }
 
 
+
     public static Point intersection(equation equation1,equation equation2){
         double det = equation1.getA()*equation2.getB()-equation1.getB()*equation2.getA();
         double detX = equation1.getC()*equation2.getB()-equation1.getB()*equation2.getC();
